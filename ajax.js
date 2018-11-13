@@ -1,3 +1,5 @@
+
+function loadDoc(){
 var getHttpRequest = function(){
     var http_Request = false;
     if (window.XMLHttpRequest) { // Mozilla, Safari,...
@@ -32,3 +34,4 @@ httpRequest.onreadystatechange = function(){
    }
 };
 httpRequest.send()
+}

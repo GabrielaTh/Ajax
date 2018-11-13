@@ -45,7 +45,7 @@
   .belly {
     top: 60%;
     left: 2.5%;
-    background: var(--penguin-belly, white);
+    background: var(--penguin-belly, rgb(255, 255, 255));
     width: 95%;
     height: 100%;
     border-radius: 120% 120% 100% 100%;
@@ -204,21 +204,25 @@
     position: absolute;
   }
 
- button{
-      border-radius: 50%;
-      width: 60px;
-      height: 50px;
-      border: none;
-      float:center;
+ .button{
+      border-radius:15px;
+      border:none;
+      color:#fdeefc;
+      background-color: rgb(70, 173, 70);
+      padding: 10px 25px;
+      text-decoration: none;
+      display:inline-block;
+      font-size: 16px;
+      margin-left: 65%;
+      cursor: pointer;
   }
   #quote{
-      display: flex;
+      position: fixed;
       margin-left: 34%;
       margin-right: 40px;
-      margin-top: -20%;
-      height: auto;
+      margin-top: -26%;
       text-align: center;
       font-family: 'Dancing Script',cursive;
-      font-size: 20px;
+      font-size: 25px;
   }
 
